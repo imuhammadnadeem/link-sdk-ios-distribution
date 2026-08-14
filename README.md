@@ -22,6 +22,19 @@ You can then add it to your project the same way you would with any other framew
 
 <br/>
 
+### Ionic / Capacitor
+
+If you are using [Ionic](https://ionicframework.com/) with [Capacitor](https://capacitorjs.com/), the community plugin [lean-ionic-capacitor](https://github.com/imuhammadnadeem/LEAN-Ionic-Capacitor) wraps this iOS SDK (plus the Android and Web SDKs) behind one JavaScript API.
+
+```
+npm install lean-ionic-capacitor
+npx cap sync
+```
+
+See the [plugin repository](https://github.com/imuhammadnadeem/LEAN-Ionic-Capacitor) for host-app setup, deep linking, and usage examples.
+
+<br/>
+
 ## Usage with Swift UI
 
 Once the package has been added to your project, you should initialize the SDK within your app.
