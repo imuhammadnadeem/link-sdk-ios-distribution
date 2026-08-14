@@ -16,7 +16,7 @@ Please note: You must have github connected to XCode for SPM to work.
 
 ### Manually
 
-You can download the `LeanSDK.xcframework` file manually [here](https://cdn.leantech.me/link/sdk/ios/build.32/LeanSDK.xcframework-build.32.zip).
+You can download the `LeanSDK.xcframework` file manually [here](https://cdn.leantech.me/link/sdk/ios/build.39/LeanSDK.xcframework-build.39.zip).
 
 You can then add it to your project the same way you would with any other framework dependency.
 
@@ -41,7 +41,7 @@ class LeanTestAppApp: App {
         Lean.manager.setup(
             appToken: "YOUR_APP_TOKEN",
             sandbox: true,
-            version: "build.32"
+            version: "1.25.0"
         )
     }
 
@@ -98,7 +98,7 @@ struct ContentView: View {
 
 ### Setting the version
 
-`version` takes a `String` and can point to either a specific SDK version i.e. `"build.32"` or an alias i.e. `"latest"`.
+`version` takes a `String` and can point to either a specific Link SDK version i.e. `"1.25.0"` or an alias i.e. `"latest"`. This is the web SDK loaded at runtime; it is separate from the native xcframework build in the [manual download](#manually) link and `Package.swift`.
 
 We recommend passing in a specific version to ensure stability in the case that a change to the SDK breaks your application.
 
@@ -161,7 +161,7 @@ class ViewController: UIViewController {
         Lean.manager.setup(
             appToken: "YOUR_APP_TOKEN",
             sandbox: true,
-            version: "build.32",
+            version: "1.25.0",
         )
     }
 }
