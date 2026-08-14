@@ -22,16 +22,18 @@ You can then add it to your project the same way you would with any other framew
 
 <br/>
 
-### Ionic / Capacitor
+### Ionic / Capacitor (unofficial)
 
-If you are using [Ionic](https://ionicframework.com/) with [Capacitor](https://capacitorjs.com/), the community plugin [lean-ionic-capacitor](https://github.com/imuhammadnadeem/LEAN-Ionic-Capacitor) wraps this iOS SDK (plus the Android and Web SDKs) behind one JavaScript API.
+This plugin is **not an official Lean product**. It is an independent community wrapper built on top of Lean's official iOS, Android, and Web SDKs.
+
+If you are using [Ionic](https://ionicframework.com/) with [Capacitor](https://capacitorjs.com/), see [lean-ionic-capacitor](https://github.com/imuhammadnadeem/LEAN-Ionic-Capacitor).
 
 ```
 npm install lean-ionic-capacitor
 npx cap sync
 ```
 
-See the [plugin repository](https://github.com/imuhammadnadeem/LEAN-Ionic-Capacitor) for host-app setup, deep linking, and usage examples.
+See the [plugin repository](https://github.com/imuhammadnadeem/LEAN-Ionic-Capacitor) for host-app setup, deep linking, and usage examples. Lean does not maintain or support this plugin.
 
 <br/>
 
